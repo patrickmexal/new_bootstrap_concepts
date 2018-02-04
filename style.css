@@ -1,0 +1,43 @@
+* {
+	margin: 10px;
+}
+.jumbtron {
+	text-align: center;
+}
+.col-lg-7 {
+	border-radius: 5px;
+	border-style: solid;
+	min-height: 350px;
+}
+.col-lg-4 {
+	border-radius: 5px;
+	border-style: solid;
+	min-height: 150px;
+	float: right;
+}
+
+#patmexaldesign {
+	font-weight: bolder;
+	font-family: 'Permanent Marker', cursive;
+	color: black;	
+}
+.breadcrumb {
+	font-size: 18px;
+	min-height: 40px;
+}
+img.icon {
+	height: 30px;
+	width: 30px;
+	margin: 1px;
+}
+
+img.thumbnail {
+	border-radius: 5px;
+	height: 210px;
+	width: 210px;
+	box-shadow: 1px 1px 1px 1px;	
+}
+#navspan {
+	float: right;
+	margin-top: 20px;
+}
