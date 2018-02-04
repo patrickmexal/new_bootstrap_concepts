@@ -1,8 +1,10 @@
 * {
 	margin: 10px;
 }
-.jumbtron {
-	text-align: center;
+.jumbotron {
+	background-image: url("https://www.wildernessphotographs.com/images/xl/Kalalau-Valley-and-Na-Pali-coast-sunset-panorama.jpg");
+	text-align: left;
+	color: white;
 }
 .col-lg-7 {
 	border-radius: 5px;
@@ -13,12 +15,13 @@
 	border-radius: 5px;
 	border-style: solid;
 	min-height: 150px;
+	width: 95%;
 	float: right;
 }
 
 #patmexaldesign {
 	font-weight: bolder;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Special Elite', cursive;
 	color: black;	
 }
 .breadcrumb {
@@ -39,5 +42,5 @@ img.thumbnail {
 }
 #navspan {
 	float: right;
-	margin-top: 20px;
+	margin-top: 17.5px;
 }
