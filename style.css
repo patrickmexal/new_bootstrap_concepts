@@ -32,6 +32,9 @@
 	font-size: 18px;
 	min-height: 40px;
 }
+.breadcrumb-item {
+	font-family: 'Federo', sans-serif;
+}
 img.icon {
 	height: 30px;
 	width: 30px;
@@ -43,6 +46,9 @@ img.thumbnail {
 	height: 210px;
 	width: 210px;
 	box-shadow: 1px 1px 1px 1px;	
+}
+img.icon:hover {
+	-webkit-transform: scale(1.4);
 }
 #navspan {
 	float: right;
