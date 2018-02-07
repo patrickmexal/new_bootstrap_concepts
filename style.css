@@ -28,8 +28,9 @@
 /* Relates to the Social Media Links */
 
 img.icon {
-	height: 30px;
-	width: 30px;
+	display: inline;
+	height: 32px;
+	width: 32px;
 	margin: 1px;
 }
 
@@ -38,11 +39,11 @@ img.icon:hover {
 }
 
 img.thumbnail {
-	border-radius: 5px;
+	border-radius: 10px;
 	height: 210px;
 	width: 210px;
 	box-shadow: 1px 1px 1px 1px;
-	-webkit-transition: -webkit-transform .8s ease-in-out;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
           transition:         transform .8s ease-in-out;	
 }
 img.thumbnail:hover {
@@ -53,6 +54,7 @@ img.thumbnail:hover {
 #navspan {
 	float: right;
 	margin-top: 17.5px;
+	margin-bottom: 17.5px;
 }
 /* Relates to the Interior Divs */
 
