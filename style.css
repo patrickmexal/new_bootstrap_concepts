@@ -1,6 +1,7 @@
 * {
 	margin: 10px;
 }
+
 .jumbotron {
 	font-family: 'Mr De Haviland', cursive;
 	font-size: 40px;
@@ -59,11 +60,15 @@ img.thumbnail:hover {
 /* Relates to the Interior Divs */
 
 .d-inline-block {
+	margin-left: 40px;
 	width: 100%;
 	display: table;
 	table-layout: fixed;
 	min-height: 200px;
 	border-radius: 3px;
+}
+h4 {
+	text-align: center;
 }
 .column {
 	margin: 20px;
