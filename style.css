@@ -51,11 +51,13 @@ img.icon:hover {
 /* Relates to the Interior Divs */
 
 .d-inline-block {
-	border-style: solid;
-	border-color: black;
-	min-height: 250px;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	min-height: 200px;
 	border-radius: 3px;
 }
 .column {
+	margin: 20px;
 	display: inline-block;
 }
