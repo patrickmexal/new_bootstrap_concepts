@@ -33,15 +33,21 @@ img.icon {
 	margin: 1px;
 }
 
+img.icon:hover {
+	-webkit-transform: scale(1.4);
+}
+
 img.thumbnail {
 	border-radius: 5px;
 	height: 210px;
 	width: 210px;
-	box-shadow: 1px 1px 1px 1px;	
+	box-shadow: 1px 1px 1px 1px;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;	
 }
-
-img.icon:hover {
-	-webkit-transform: scale(1.4);
+img.thumbnail:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 #navspan {
