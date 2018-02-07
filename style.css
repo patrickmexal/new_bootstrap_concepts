@@ -10,31 +10,23 @@
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
-.col-lg-7 {
-	border-radius: 5px;
-	border-style: solid;
-	min-height: 350px;
-}
-.col-lg-4 {
-	border-radius: 5px;
-	border-style: solid;
-	min-height: 150px;
-	width: 95%;
-	float: right;
-}
-
 #patmexaldesign {
 	font-weight: bolder;
 	font-family: 'Special Elite', cursive;
 	color: black;	
 }
+/* Breadcrumb denotes Navbar links*/
+
 .breadcrumb {
 	font-size: 18px;
 	min-height: 40px;
 }
+
 .breadcrumb-item {
-	font-family: 'Federo', sans-serif;
+	font-family: 'Racing Sans One', cursive;
 }
+/* Relates to the Social Media Links */
+
 img.icon {
 	height: 30px;
 	width: 30px;
@@ -47,10 +39,23 @@ img.thumbnail {
 	width: 210px;
 	box-shadow: 1px 1px 1px 1px;	
 }
+
 img.icon:hover {
 	-webkit-transform: scale(1.4);
 }
+
 #navspan {
 	float: right;
 	margin-top: 17.5px;
+}
+/* Relates to the Interior Divs */
+
+.d-inline-block {
+	border-style: solid;
+	border-color: black;
+	min-height: 250px;
+	border-radius: 3px;
+}
+.column {
+	display: inline-block;
 }
