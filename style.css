@@ -40,7 +40,7 @@ img.icon:hover {
 }
 
 img.thumbnail {
-	border-radius: 10px;
+	border-radius: 5px;
 	height: 210px;
 	width: 210px;
 	box-shadow: 1px 1px 1px 1px;
@@ -48,8 +48,8 @@ img.thumbnail {
           transition:         transform .8s ease-in-out;	
 }
 img.thumbnail:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 #navspan {
